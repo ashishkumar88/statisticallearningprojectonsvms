@@ -5,7 +5,7 @@
 % the error?correcting?coding extension of binary SVM for multi?class recognition.  
 
 % load data from the data files %
-function[] = problemStep3(C)
+function[] = problemStep3(C) % C soft margin parameter for tuning classifier
 [xaaD, xaaC] = loadDataFromFile('xaa.dat');
 [xabD, xabC] = loadDataFromFile('xab.dat');
 [xacD, xacC] = loadDataFromFile('xac.dat');

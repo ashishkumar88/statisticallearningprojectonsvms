@@ -3,7 +3,7 @@
 % Version   : 1.0v %
 % This program creates a binary SVM for the heart data and tests %
 % against the test data %
-function[] = problemStep0(C)
+function[] = problemStep0(C) % C soft margin parameter for tuning classifier
 load HeartDataSet.mat
 z = binarySVMTrain(Xtrain, Ytrain, C);
 widthTrainData = size(Xtrain, 2);

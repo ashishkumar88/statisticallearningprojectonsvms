@@ -4,7 +4,7 @@
 % This program laods the vehicle data and creates performs %
 % a one vs one multiclass conversion from the binary SVM %
 % created in the process %
-function[] = problemStep2(C)
+function[] = problemStep2(C) % C soft margin parameter for tuning classifier
 % load data from the data files %
 [xaaD, xaaC] = loadDataFromFile('xaa.dat');
 [xabD, xabC] = loadDataFromFile('xab.dat');
